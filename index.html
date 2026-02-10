@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+
+  
+  <link
+    href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 bg-dark">
+
+  <div class="calculator p-3 rounded-4">
+    <!-- Display -->
+    <div id="display" class="display text-end text-white mb-3">0</div>
+
+    <!-- Buttons -->
+    <div class="row g-2">
+      <div class="col-3"><button class="btn btn-func w-100">AC</button></div>
+      <div class="col-3"><button class="btn btn-func w-100">DEL</button></div>
+      <div class="col-3"><button class="btn btn-func w-100">%</button></div>
+      <div class="col-3"><button class="btn btn-op w-100">/</button></div>
+
+      <div class="col-3"><button class="btn btn-num w-100">7</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">8</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">9</button></div>
+      <div class="col-3"><button class="btn btn-op w-100">*</button></div>
+
+      <div class="col-3"><button class="btn btn-num w-100">4</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">5</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">6</button></div>
+      <div class="col-3"><button class="btn btn-op w-100">-</button></div>
+
+      <div class="col-3"><button class="btn btn-num w-100">1</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">2</button></div>
+      <div class="col-3"><button class="btn btn-num w-100">3</button></div>
+      <div class="col-3"><button class="btn btn-op w-100">+</button></div>
+
+      <div class="col-6">
+        <button class="btn btn-num w-100 rounded-pill">0</button>
+      </div>
+      <div class="col-3"><button class="btn btn-num w-100">.</button></div>
+      <div class="col-3"><button class="btn btn-op w-100">=</button></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

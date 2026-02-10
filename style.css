@@ -1,0 +1,49 @@
+.calculator {
+  width: 320px;
+  background-color: #000;
+}
+
+.display {
+  font-size: 3rem;
+  padding: 15px;
+  background-color: #000;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+.btn {
+  height: 65px;
+  font-size: 1.4rem;
+  border-radius: 50%;
+}
+
+
+.btn-num {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-num:hover {
+  background-color: white;
+}
+
+
+.btn-func {
+  background-color: #a5a5a5;
+  color: #000;
+}
+
+.btn-func:hover {
+  background-color: #b5b5b5;
+}
+
+
+.btn-op {
+  background-color: #f1a33c;
+  color: #fff;
+}
+
+.btn-op:hover {
+  background-color: #f5b14f;
+}
